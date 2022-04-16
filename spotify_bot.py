@@ -15,7 +15,7 @@ def help(bot, update):
 
 def about(bot, update):
     print ("About page selected")
-    bot.sendMessage(update.message.chat_id, text = "This bot has been created by GMCtree using Python and the Python Telegram Bot API created by the Python-Telegram-Bot Team")
+    bot.sendMessage(update.message.chat_id, text = "This bot inline has been created by Masterolic using Python and the Python Telegram Bot API. This Bot Is  created by the Spotify Bot Team")
 
 def get_thumbnail(response):
     # check if images exist for search query
