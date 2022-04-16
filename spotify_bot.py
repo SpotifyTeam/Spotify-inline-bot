@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 def help(bot, update):
     print ("Help page selected")
-    bot.sendMessage(update.message.chat_id, text = "To search for a song on Spotify, just call the bot by typing @spotify_telegram_bot and then typing your query. Then, just select what category you would like to search under!")
+    bot.sendMessage(update.message.chat_id, text = "To search for a song on Spotify, just call the bot by typing @spotify_downloa_bot and then typing your query. Then, just select what category you would like to search under!")
 
 def about(bot, update):
     print ("About page selected")
